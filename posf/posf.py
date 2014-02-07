@@ -12,37 +12,10 @@ class POSFBase(object):
 			'debug'      : False,
 			'debug_level': 1
 		}
+
 		# http://stackoverflow.com/questions/2330245/python-change-text-color-in-shell
 		# http://misc.flogisoft.com/bash/tip_colors_and_formatting
-		"""
-		class AnsiFore:
-		    BLACK   = 30
-		    RED     = 31
-		    GREEN   = 32
-		    YELLOW  = 33
-		    BLUE    = 34
-		    MAGENTA = 35
-		    CYAN    = 36
-		    WHITE   = 37
-		    RESET   = 39
 
-		class AnsiBack:
-		    BLACK   = 40
-		    RED     = 41
-		    GREEN   = 42
-		    YELLOW  = 43
-		    BLUE    = 44
-		    MAGENTA = 45
-		    CYAN    = 46
-		    WHITE   = 47
-		    RESET   = 49
-
-		class AnsiStyle:
-		    BRIGHT    = 1
-		    DIM       = 2
-		    NORMAL    = 22
-		    RESET_ALL = 0
-		"""
 		self.__fgcolors = {
 			'reset' : "\033[0m",
 			'black' : "\033[38;5;256m",
