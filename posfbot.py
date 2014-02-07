@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import configparser
 from posf import posf
 from posf import POSFRedis
